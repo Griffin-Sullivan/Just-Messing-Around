@@ -1,2 +1,1 @@
-# Just-Messing-Around
-Code written in times of boredom
+My friend and I got bored so we made this alarm clock in Python 2.7. There is functionality for setting and stopping the time, as well as adding a 30 second snooze. This was our first time using Tkinter so there is nothing too advanced. I hope you enjoy the motivational Rocky music, and don't forget to use 24 hour (Military) time. Enjoy!
