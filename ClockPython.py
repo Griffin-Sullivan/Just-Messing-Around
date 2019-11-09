@@ -65,7 +65,7 @@ def snooze():
         
     snoozeBut.grid()
     mixer.init()
-    mixer.music.load("/home/pi/Documents/Python_Clock/Bill Conti - Gonna Fly Now (Theme From Rocky).mp3")
+    mixer.music.load("Bill Conti - Gonna Fly Now (Theme From Rocky).mp3")
     mixer.music.play()
     
 def setAlarm():
@@ -88,7 +88,7 @@ def setAlarm():
     while (alarmTime != currentTime):
         currentTime = time.strftime("%H:%M:%S", time.localtime())
     mixer.init()
-    mixer.music.load("/home/pi/Documents/Python_Clock/Bill Conti - Gonna Fly Now (Theme From Rocky).mp3")
+    mixer.music.load("Bill Conti - Gonna Fly Now (Theme From Rocky).mp3")
     mixer.music.play()
     snoozeBut.grid()
     
